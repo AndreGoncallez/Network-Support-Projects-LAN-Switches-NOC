@@ -1,79 +1,61 @@
-# Network Tools & Utilities
+# Portfólio Técnico de Infraestrutura e Redes – André Gonçallez
 
-![GitHub repo size](https://img.shields.io/github/repo-size/andreGoncallez/network-tools)
-![GitHub license](https://img.shields.io/github/license/andreGoncallez/network-tools)
-![GitHub issues](https://img.shields.io/github/issues/andreGoncallez/network-tools)
+## 🎯 Sobre Mim
+Profissional com mais de 20 anos de experiência em infraestrutura de TI, redes e segurança. Atualmente focado em aprimorar competências em Cloud (GCP), DevSecOps e Cibersegurança, aplicando conhecimentos práticos em ambientes de laboratório (homelab) para simular desafios corporativos reais.
 
-Bem-vindo ao repositório **Network Tools & Utilities**!
+**Contato:**
+* **LinkedIn:** `https://linkedin.com/in/andregoncallez`
+* **E-mail:** `[seu.email@exemplo.com]`
 
-Este projeto foi criado especialmente para analistas e engenheiros de redes, profissionais que atuam com equipamentos Cisco, Huawei, Fortinet, Greenstream e outros fabricantes do mercado. Aqui você encontrará uma coleção de ferramentas práticas, calculadoras, scripts e exemplos de configuração voltados para o dia a dia do suporte de redes.
+---
 
-## Índice
+## 📚 Trilhas de Estudo e Certificações
+Meu desenvolvimento profissional segue uma trilha lógica e contínua, focada em construir uma base sólida desde a infraestrutura física até a segurança em nuvem.
 
-- [🚀 Propósito](#-propósito)  
-- [⚙️ O que você encontra aqui](#-o-que-você-encontra-aqui)  
-- [🧰 Exemplos de Utilização](#-exemplos-de-utilização)  
-- [🔥 Para quem é este repositório?](#-para-quem-é-este-repositório)  
-- [💡 Como contribuir](#-como-contribuir)  
-- [📝 Licença](#-licença)  
-- [📫 Contato](#-contato)
+| Área | Certificação | Status | Previsão de Conclusão |
+| :--- | :--- | :--- | :--- |
+| **Redes** | Cisco CCNA Enterprise | Fase 2 em andamento | dez/2025 |
+| **Sistemas**| LPIC-1 – Linux Professional | Estudo avançado | nov/2025 |
+| **Segurança**| Cisco CyberOps Associate | Finalizando laboratórios | - |
+| **Cloud** | Google Associate Cloud Engineer | Preparação ativa | abr/2026 |
+| **Cloud Security**| Google Professional Cloud Security | Planejada | jul/2026 |
 
-## 🚀 Propósito
+---
 
-O objetivo principal deste repositório é centralizar recursos úteis para facilitar e agilizar o trabalho de profissionais de redes, abrangendo desde configurações básicas até automações e troubleshooting.
+## 🏗️ Projetos e Laboratórios (Homelab)
+Nesta seção, documento os projetos práticos que desenvolvo para testar, validar e aprofundar meus conhecimentos.
 
-## ⚙️ O que você encontra aqui
+### 📂 Projeto 1: Simulação de Rede Corporativa Híbrida (EVE-NG + GCP)
+* **Descrição:** Ambiente que simula uma matriz (on-premises) conectada a uma filial na nuvem (GCP), com foco em segurança e monitoramento.
+* **Tecnologias:** Switches L3, Roteadores, Firewall, VLANs, OSPF, VPN Site-to-Site, Google Cloud VPC.
+* **Ferramentas:** EVE-NG, Zabbix, Grafana, GCP Console.
+* **Status:** Em desenvolvimento.
+* **[➡️ Ver Diagrama e Configurações (link para uma pasta dentro do repositório)]**
 
-- **Calculadoras de IP**  
-  Ferramentas para cálculo de sub-redes, VLSM, IPv4/IPv6, máscaras, broadcast, etc.
+### 📂 Projeto 2: Implementação de SIEM com Wazuh
+* **Descrição:** Instalação e configuração de um ambiente de SIEM (Security Information and Event Management) para monitorar logs de servidores Windows e Linux, gerando alertas para atividades suspeitas.
+* **Tecnologias:** Wazuh, Elastic Stack (Elasticsearch, Kibana).
+* **Resultados:** Criação de dashboards para visualização de alertas de segurança, como tentativas de login malsucedidas e alterações de arquivos críticos.
+* **Status:** Concluído.
+* **[➡️ Ver Dashboards e Regras (link para uma pasta com screenshots)]**
 
-- **Modelos de Configuração**  
-  Exemplos prontos e adaptáveis para roteadores, switches e firewalls (Cisco, Huawei, Fortinet, Greenstream, entre outros).
+### 📂 Projeto 3: Automação de Rotinas com Scripts
+* **Descrição:** Desenvolvimento de scripts para automatizar tarefas de administração de sistemas.
+* **Exemplos:**
+    * **Backup:** Script em Shell para backup de diretórios críticos com envio de log por e-mail.
+    * **Hardening:** Script em PowerShell para aplicar políticas básicas de segurança em Windows Server.
+* **[➡️ Ver Códigos (link para a pasta de scripts)]**
 
-- **Scripts de Automação**  
-  Scripts em Python, Bash, PowerShell e outras linguagens para automação e gerenciamento de redes.
+---
 
-- **Checklists e Troubleshooting**  
-  Guias para diagnóstico de problemas e resolução rápida de incidentes comuns em redes corporativas.
+## 📄 Runbooks e Documentação
+Acredito que uma boa documentação é a base para a eficiência operacional. Aqui estão alguns exemplos de runbooks que criei.
 
-- **Ferramentas de Suporte**  
-  Utilitários para testes de conectividade, verificação de portas, análise de pacotes, etc.
+* **[Runbook]** - Procedimento para Restauração de Backup (Veeam)
+* **[Runbook]** - Resposta a Incidente de Ransomware (Isolamento e Análise)
+* **[Checklist]** - Onboarding de Novo Servidor Linux na Rede
 
-- **Documentação e Dicas**  
-  Boas práticas, anotações técnicas, links úteis e materiais de referência para estudo e consulta rápida.
-
-## 🧰 Exemplos de Utilização
-
-- Configuração rápida de VLANs em Cisco IOS  
-- Script para backup automático de configurações  
-- Calculadora de sub-redes IPv6  
-- Modelos de regras de firewall Fortinet  
-- Playbooks Ansible para automação de rotinas de rede  
-- Ferramentas para análise de logs e troubleshooting
-
-## 🔥 Para quem é este repositório?
-
-- Analistas e engenheiros de redes corporativas  
-- Profissionais de suporte (NOC/SOC)  
-- Estudantes de certificações (CCNA, HCIA, NSE, etc)  
-- Times de infraestrutura de grandes empresas  
-- Qualquer pessoa que queira agilizar, automatizar ou facilitar o trabalho com redes
-
-## 💡 Como contribuir
-
-Sua experiência é muito bem-vinda!  
-Envie pull requests com scripts, modelos, dicas ou abra issues para sugestões.
-
-Antes de começar, leia nosso [Guia de Contribuição](CONTRIBUTING.md).
-
-## 📝 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
-## 📫 Contato
-
-- [LinkedIn](https://www.linkedin.com/in/andregoncallez)  
-- E-mail: andregoncallez@yahoo.com.br
+*(Cada item acima pode ser um link para outro arquivo .md dentro do repositório)*
 
 ---
 
